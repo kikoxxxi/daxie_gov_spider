@@ -1,7 +1,5 @@
 # DaXieGovSpider
----
 This is a Scrapy project to scrape bidding information from http://www.daxie.gov.cn/col/col85336/index.html.
----
 ## Extracted data
 This project extracts project name, combined with the respective date, bidder's name and detail url. 
 The crawler use MySQL for storing data.
@@ -16,4 +14,4 @@ The extracted data in MySQL looks like this:
 }
 ```
 ## Running the spiders
-`scrapy crawl daxie_spider`
+`$ scrapy crawl daxie_spider`
